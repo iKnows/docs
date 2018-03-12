@@ -1,9 +1,19 @@
 baseURL = "https://docs.spanda.io"
-title = "Spanda Docs"
-theme = drone-hugo-theme
-copyright= Copyright © 2018 Spanda.IO Inc.
-disableRSS= true
-disable404= true
+paginate =  100
+enableEmoji = true
 defaultContentLanguage=zh
-defaultContentLanguageInSubdir= false
-enableMissingTranslationPlaceholders= false
+
+metaDataFormat = "yaml"
+title = "Spanda Docs"
+theme = "drone-hugo-theme"
+
+pygmentsCodeFences = true
+pygmentsOptions = ""
+# Use the Chroma stylesheet
+pygmentsUseClasses = true
+pygmentsUseClassic = false
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "friendly"
+
+copyright = " Copyright © 2018 Spanda.IO Inc."
+
