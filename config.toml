@@ -1,12 +1,12 @@
-baseURL : "https://docs.spanda.io"
-title : "Spanda Docs"
-theme : drone-hugo-theme
+baseURL = "https://docs.spanda.io"
+title = "Spanda Docs"
+theme = drone-hugo-theme
 
-copyright: Copyright © 2018 Spanda.IO Inc.
+copyright= Copyright © 2018 Spanda.IO Inc.
 
-disableRSS: true
-disable404: true
+disableRSS= true
+disable404= true
 
-defaultContentLanguage: zh
-defaultContentLanguageInSubdir: false
-enableMissingTranslationPlaceholders: false
+defaultContentLanguage=zh
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders= false
