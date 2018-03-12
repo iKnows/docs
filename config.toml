@@ -1,0 +1,43 @@
+baseURL = "https://docs.spanda.io"
+paginate = 100
+enableEmoji =  true
+
+metaDataFormat =  "yaml"
+title =  "Spanda Docs"
+theme =  "kube"
+description = "handbook"
+
+pygmentsCodeFences=  true
+pygmentsOptions= ""
+# Use the Chroma stylesheet
+pygmentsUseClasses=  true
+pygmentsUseClassic=  false
+# See https://help.farbox.com/pygments.html
+pygmentsStyle=  "friendly"
+
+copyright=  " Copyright © 2018 Spanda.IO Inc."
+
+
+[Params]
+    RSSLink = "/index.xml"
+    author = "ysicing"
+    github = "ysicing"
+    twitter = "YsiCing"
+    email = "ops.ysicing@gmail.com"
+
+[[menu.main]]
+    name = "K8S"
+    weight = 101
+    url = "/k8s/"
+[[menu.main]]
+    name = "FLASK"
+    weight = 102
+    url = "/flask/"
+[[menu.main]]
+    name = "CLI"
+    weight = 103
+    url = "/cli/"
+[[menu.main]]
+    name = "Misc"
+    weight = 104
+    url = "/misc/"
