@@ -1,7 +1,6 @@
 baseURL = "https://docs.spanda.io"
 paginate =  100
 enableEmoji = true
-defaultContentLanguage=zh
 
 metaDataFormat = "yaml"
 title = "Spanda Docs"
